@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลส่วนตัว - นางสาวนลินทิพย์ เป็กธนู</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #fdf6e3;
+            color: #5d4037;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .profile-section {
+            background: linear-gradient(135deg, #ffb74d, #ff9800);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .profile-name {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .profile-nickname {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        
+        .info-block {
+            padding: 25px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .info-block:last-child {
+            border-bottom: none;
+        }
+        
+        .block-title {
+            font-size: 20px;
+            color: #ff9800;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ffe0b2;
+        }
+        
+        .info-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+        
+        .info-label {
+            font-weight: bold;
+            color: #795548;
+        }
+        
+        .hobbies-list, .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .hobby-tag, .skill-tag {
+            background-color: #ffe0b2;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            .info-content, .contact-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile-pic">
+                <img src="21f61469-0292-4c51-86ea-935856d16fd5.jpg" alt="รูปโปรไฟล์ นลินทิพย์">
+            </div>
+            <h1 class="profile-name">นางสาวนลินทิพย์ เป็กธนู</h1>
+            <div class="profile-nickname">(เอิร์น)</div>
+        </div>
 
+        <div class="info-block">
+            <h2 class="block-title">ข้อมูลส่วนตัว</h2>
+            <div class="info-content">
+                <div class="info-label">ชื่อ-นามสกุล:</div>
+                <div>นางสาวนลินทิพย์ เป็กธนู</div>
+                
+                <div class="info-label">ชื่อเล่น:</div>
+                <div>เอิร์น</div>
+                
+                <div class="info-label">อายุ:</div>
+                <div>20 ปี</div>
+                
+                <div class="info-label">วันเกิด:</div>
+                <div>13 มิถุนายน 2548</div>
+            </div>
+        </div>
+        
+        <div class="info-block">
+            <h2 class="block-title">ข้อมูลการศึกษา</h2>
+            <div class="info-content">
+                <div class="info-label">สถานศึกษา:</div>
+                <div>มหาวิทยาลัยพะเยา</div>
+                
+                <div class="info-label">คณะ:</div>
+                <div>ICT</div>
+                
+                <div class="info-label">สาขา:</div>
+                <div>วิทยาการคอมพิวเตอร์</div>
+                
+                <div class="info-label">สถานะ:</div>
+                <div>กำลังศึกษา</div>
+            </div>
+        </div>
+        
+        <div class="info-block">
+            <h2 class="block-title">งานอดิเรก</h2>
+            <div class="hobbies-list">
+                <span class="hobby-tag">เล่นเกม</span>
+                <span class="hobby-tag">ฟังเพลง</span>
+                <span class="hobby-tag">วาดรูป</span>
+            </div>
+        </div>
+        
+        <div class="info-block">
+            <h2 class="block-title">ความสามารถพิเศษ</h2>
+            <div class="skills-list">
+                <span class="skill-tag">เล่นกีฬา</span>
+                <span class="skill-tag">วาดรูป</span>
+            </div>
+        </div>
+        
+        <div class="info-block">
+            <h2 class="block-title">ข้อมูลการติดต่อ</h2>
+            <div class="contact-info">
+                <div class="info-label">โทรศัพท์:</div>
+                <div>099-424-1686</div>
+                
+                <div class="info-label">อีเมล:</div>
+                <div>67021062@up.ac.th</div>
+                
+                <div class="info-label">Facebook:</div>
+                <div>nalinthip prkthanoo</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
